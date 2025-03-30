@@ -2,7 +2,7 @@
 
 ## Implementation
 
-This dissertation aims to accurately predict used car prices using machine learning techniques. The motivation is the increased demand for used cars due to new car shortages and high prices. A dataset of used car listings from Craigslist is analyzed. After data cleaning and pre-processing, both a baseline model retaining all features and an optimized model with feature engineering are developed. 
+This project aims to accurately predict used car prices using machine learning techniques. The motivation is the increased demand for used cars due to new car shortages and high prices. A dataset of used car listings from Craigslist is analyzed. After data cleaning and pre-processing, both a baseline model retaining all features and an optimized model with feature engineering are developed. 
 
 The optimized model groups the features 'manufacturer', 'state', and 'paint color' into new attributes representing maintenance costs, taxes, and depreciation. Five regression algorithms - linear regression, support vector regression, decision tree, random forest, and XGBoost - are tested on scaled and unscaled data for both models. The XGBoost model performs best overall, with an R-squared of 0.82 on scaled test data. 
 
